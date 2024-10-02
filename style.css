@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --base: violet;
+    --tomato : tomato;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+
+button{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background-color: var(--base);
+    border: none;
+    color: white;
+}
+
+button:hover{
+   border: .2rem solid var(--tomato) ;
+   background-color: var(--tomato);
+   animation: button .5s  linear .2s 1 forwards  ;
+}
+@keyframes button {
+    0%{
+
+    }
+    100%{
+        scale: 1.2;
+        border-radius: 3rem;
+    }
+}
+
+
+
+header{
+
+    text-align: center;
+  background-color: var(--base);
+    height: 10vh;
+}
+
+header h1 {
+    color: beige;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: var(--tomato);
+    margin: rem 0;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    
+justify-content: space-evenly;
+align-items: center;
+font-size: 1.5rem;
+text-transform: capitalize;
+}
+
+hr{
+
+    height: .3rem;
+    background-color: mediumslateblue;
+
+}
+
+nav ul a{
+    color:beige;
+    text-decoration: none;
+}
+
+
+.section-1{
+    text-align: center;
+    margin: 1rem 0rem;
+    padding: 3rem 13rem;
+    background-image: url(warrior_2_by_hecate_stock_d9p1mho.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.section-1 h1{
+    margin: 1rem;
+    text-transform: capitalize;
+   
+}
+
+.section-1  {
+    margin: 1rem;
+    text-transform: capitalize;
+    box-shadow: 1rem 1rem 1rem var(--tomato);
+}
+
+.section-2{
+    text-align: center;
+   background-image: url(woman-wears-black-top-close-up-photography-2902966-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: sticky;
+    padding: 4rem;
+
+}
+
+.section-2 div{
+
+}
+
+.section-2 div button{
+margin: 0rem 6rem;
+}
+
